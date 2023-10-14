@@ -3,7 +3,7 @@
 rm tcet-linux-repo-testing*
 
 echo "repo-add"
-repo-add -s -n -R tcet-linux-repo-testing.db.tar.gz *.pkg.tar.zst
+repo-add -n -R tcet-linux-repo-testing.db.tar.gz *.pkg.tar.zst
 sleep 5
 
 
